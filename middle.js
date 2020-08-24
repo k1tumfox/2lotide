@@ -1,19 +1,3 @@
-const eqArrays = (a1, a2) => {
-  if (a1.length !== a2.length) {
-    console.log("Arrays being compared must be of same length.");
-    return;
-  }
-  for (let i = 0; i < a1.length; i++) {
-    if (a1[i] !== a2[i]) {
-      return false;
-    }
-  }
-  return true;
-};
-
-const assertArraysEqual = (a1, a2) => {
-  eqArrays(a1, a2) ? console.log(`✅✅✅ ${a1} === ${a2}`) : console.log(`🛑🛑🛑 ${a1} !== ${a2}`);
-};
 
 //plan, partition, test
 // return an array containing middle-most element of source array 
@@ -38,4 +22,4 @@ const middle = (arr) => {
   return middleArr;
 };
 
-assertArraysEqual(  middle([1, 2, 3, 4, 5]),   [3]);
+module.exports = middle;
