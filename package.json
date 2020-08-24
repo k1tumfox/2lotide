@@ -1,20 +1,20 @@
 {
-  "name": "2lotide",
+  "name": "@k1tumfox/2lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "clone library of lodash for learning purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/k1tumfox/2lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tenyson Kwon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/k1tumfox/2lotide/issues"
